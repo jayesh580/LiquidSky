@@ -1,17 +1,17 @@
 .banner1{
     height: 105vh;
     width: 100%;
-    background-image: url(images/1.jpg);
+    background-image: url(../images/resized/7.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: 5s;
 
-    animation: animate 30s ease-in-out infinite alternate-reverse;
+    /* animation: animate 30s ease-in-out infinite alternate-reverse; */
 }
-@keyframes animate {
+/* @keyframes animate {
     0%{
-        background-image: url(../images/resized/1.jpg);
+        background-image: url(../images/resized/7.jpeg);
     }
     20%{
         background-image: url(../images/resized/2.jpg);
@@ -28,7 +28,7 @@
     100%{
         background-image: url(../images/resized/6.jpg);
     }
-}
+} */
 
 /*
 * Skeleton V1.2
